@@ -60,10 +60,10 @@
           "builder": "@angular-devkit/build-angular:dev-server",
           "configurations": {
             "production": {
-              "browserTarget": "fly-catalog:build:production"
+              "buildTarget": "fly-catalog:build:production"
             },
             "development": {
-              "browserTarget": "fly-catalog:build:development"
+              "buildTarget": "fly-catalog:build:development"
             }
           },
           "defaultConfiguration": "development"
@@ -71,7 +71,7 @@
         "extract-i18n": {
           "builder": "@angular-devkit/build-angular:extract-i18n",
           "options": {
-            "browserTarget": "fly-catalog:build"
+            "buildTarget": "fly-catalog:build"
           }
         },
         "test": {
